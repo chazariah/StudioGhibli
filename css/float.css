@@ -1,0 +1,55 @@
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+p {
+    color: #692727;
+}
+footer p {
+    color: #955a5a;
+}
+footer p {
+    color: #461111;
+}
+
+h1 {
+    color: #955a5a;
+    text-align: center;
+}
+
+header p {
+    color: #692727;
+}
+
+header p span {
+    color: #461111;
+}
+
+.color {
+    background-color: #c19595;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-area {
+    border-top: 3px solid #2c0404;
+    border-bottom: 3px solid #2c0404;
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}

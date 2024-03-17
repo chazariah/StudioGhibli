@@ -1,0 +1,392 @@
+html {
+    background-color: #5a6753;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description p {
+    color: #3c4437;
+}
+
+.image-banner {
+    position: relative;
+}
+
+.banner-caption {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+/* End Banner Overlay */
+
+.container {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e3ebe0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-image: url(../images/spirited.jpeg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Form Styles */
+form {
+    background-color: #cbd2c7;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px #e3ebe0;
+}
+input {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px #525c4f;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #525c4f;
+    color: #fff9f9;
+    padding: 10px 0;
+    border: 1px solid #cbd2c7;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover
+input[type="submit"]:focus {
+    border: 1px solid #cbd2c7;
+    background-color: #758072;
+}
+/* End Form Styles */
+
+/* Table Styles */j
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    text-align: left;
+    background-color: #525c4f;
+    color: #fff9f9;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+table th, table td {
+    border: 1px solid #525c4f;
+    padding: 10px;
+}
+
+table tbody tr:nth-last-child(even) td {
+    background-color: #fff9f9;
+}
+
+table th:nth-child(2), table th:nth-child(3),
+table th:nth-child(2), table th:nth-child(3) {
+    text-align: center;
+}
+
+.col-Most popular Ghibli films {
+    width: 60%;
+}
+
+.col-Month, .col-Year {
+    width: 20%;
+}
+/* End Table Styles */
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #45513f;
+}
+
+/* Typography */
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px #9aa396;
+}
+
+header p {
+    font-size: 120%;
+    margin-top: 10px;
+    text-align: justify;
+    color: #525c4f;
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: #d7dfd6;
+}
+/* End Typography */
+
+.content-area {
+    border-top: 3px solid #bbc8b9;
+    border-bottom: 3px solid #bbc8b9;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/*Media Query*/
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Disappearing info-box */
+.info-box {
+    background-color: #d8e1d4;
+    border: 5px solid #cbd2c7;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 480px) {
+.hide-small {
+    display: none;
+}
+}
+
+/* End of disappearing info-box */
+
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: #bbc8b9;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 90%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    z-index: 9;
+}
+
+.fix {
+    clear: both;
+}
+
+p {
+    color: #525c4f;
+}
+
+footer p {
+    color: #282c26;
+    text-align: center;
+    font-size: 85%;
+    color: #3c4437;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #282c26;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: #45513f;
+}
+
+aside {
+    color: #45513f;
+}
+
+header p span {
+    color: #65755c;
+}
+
+.highlight {
+    color: #282c26;
+    background-color: #848f7f;
+}
+
+.brand-color {
+    color: #848c80;
+    background-color: #5a6753;
+}
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #282c26;
+    padding: 10px 30px;
+    border: 3px solid #bbc8b9;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #848c80;
+}
+/* End of Site Navigation */
+
+/* Banner Overlay */
+.image-banner {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-caption{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #282c267b;
+    padding: 10px 20px;
+}
+
+.banner-caption p {
+    color: #848c80;
+}
+
+/*Slideshow*/
+.image-banner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.image-banner img {
+    display: block;
+}
+.cycle-slideshow {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.slide {
+    width: 70%;
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+/*End of slideshow*/
+
+/*Previous and Next */
+.cycle-prev, .cycle-next {
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    background-color: #282c267b;
+    color: #54674a;
+    padding: 1px 5px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-next {
+    right: 0;
+}
+
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next {
+    opacity: 1;
+}
+
+/* End of Previous and Next */

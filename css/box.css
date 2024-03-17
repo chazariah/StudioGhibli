@@ -1,0 +1,33 @@
+.box-a {
+    background-color: #721616;
+    margin-bottom: 20px;
+}
+.box-b {
+    background-color: #8d4848;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+.box-c {
+    background-color: #936363;
+    padding: 30px;
+    border: 3px solid #1a0202;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+.box-d {
+    background-color: #b37d7d;
+    margin-bottom: 20px;
+    width: 316px;
+    height: 150px;
+}
+.box-e {
+    background-color: #deb3b3;
+    padding: 30px;
+    border: 3px solid #1a0202;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+}
